@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marcelo.sj_clase_4.DetalleActivity">
+
+    <TextView
+        android:id="@+id/nombre_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Nombre"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <ImageView
+        android:id="@+id/imagen_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/descripcion_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="Descripción"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:padding="16dp"/>
+
+</LinearLayout>
